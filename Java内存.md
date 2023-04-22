@@ -3,5 +3,5 @@
   - Eden
   - Survivor1
   - Survivor2
-- 老年代  
+- 老年代
 堆外内存  
