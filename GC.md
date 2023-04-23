@@ -1,4 +1,4 @@
-## GC类型
+## GC
 - Minor GC，新生代
 - Major GC，老年代
 
