@@ -1,6 +1,10 @@
-## GC
+## GC类型
 - Minor GC，新生代
 - Major GC，老年代
+
+## GC原理
+
+## GC收集器
 
 ## 参考文档
 https://tech.meituan.com/2017/12/29/jvm-optimize.html  
