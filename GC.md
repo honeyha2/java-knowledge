@@ -23,7 +23,7 @@ ZGC只有三个STW阶段：初始标记，再标记，初始转移。其中，�
 - 停顿时间不会随着堆的大小，或者活跃对象的大小而增加
 - 支持8MB~4TB级别的堆（未来支持16TB）
 ### G1
-- 业务实测，Minor GC每分钟2次，停顿时间100ms/次；Major GC次数较少
+- 业务实测，Minor GC2次/分钟，停顿时间100ms/次；Major GC次数较少
 
 ## 参考文档
 https://tech.meituan.com/2017/12/29/jvm-optimize.html  
