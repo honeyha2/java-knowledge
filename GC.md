@@ -1,7 +1,7 @@
 ## GC类型
-- Minor GC，新生代
-- Major GC，老年代
-- Full GC，堆内存（新生代、老年代）+堆外内存
+- Minor GC，发生在新生代
+- Major GC，发生在老年代
+- Full GC，发生在堆内存（新生代、老年代）+堆外内存
 
 ## GC原理
 ### G1原理
