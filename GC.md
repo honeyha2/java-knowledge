@@ -25,7 +25,7 @@ ZGC只有三个STW阶段：初始标记，再标记，初始转移。其中，�
 - 支持8MB~4TB级别的堆（未来支持16TB）
 - 以cpu换取停顿时间，会降低cpu密集型服务的吞吐量
 ### G1
-- 业务实测，Minor GC3次/分钟，每分钟耗时总和187ms，进程单次停顿时间64ms；Major GC次数几乎为0
+- 业务实测，Minor GC每分钟3次，每分钟耗时总和187ms，进程单次停顿时间64ms；Major GC次数几乎为0
 
 ## 参考文档
 https://tech.meituan.com/2017/12/29/jvm-optimize.html  
